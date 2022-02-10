@@ -8,6 +8,6 @@ int main()
 	_c = (_f - 32) * 5/9;
 
 	//TODO: replace ??? in line 11 to print out the celsius with two digits to the right of decimal point
-	printf("\nTemp in Celsius is: %f\n", _c);
+	printf("\nTemp in Celsius is: %.2f\n", _c);
 	return 0;
 }

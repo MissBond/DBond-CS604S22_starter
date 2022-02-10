@@ -9,10 +9,10 @@ int main() {
     //Please use binaries/hex values (such as 0b, 0x, etc)
     //No loop or if statement is allowed
 
-    min_short = 0x0;
-    max_short = 0xFFFF;
+    min_short = 0x8000;
+    max_short = 0x7FFF;
     // printf("number of bytes in a short: %lu\n", sizeof(min_short));
-    printf("%hu ", min_short);
+    printf("%hi ", min_short);
     printf("%hu\n", max_short);
     return 0;
 }

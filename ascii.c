@@ -7,6 +7,6 @@ int main() {
 	// char letterTest = '*';
 	// printf("ch = %d\n", letterTest);
 	int _ch = 42;
-	printf("ch = %c\n", _ch);
+	printf("c = %c\n", _ch);
 	return 0;
 }
